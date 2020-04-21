@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/shopet"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="679dp"
+            android:background="#007EA7"
+            android:padding="8dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#003459"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="194dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/cowhip_image_view"
+                        android:layout_width="124dp"
+                        android:layout_height="75dp"
+                        android:layout_margin="16dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/cream" />
+
+                    <TextView
+                        android:id="@+id/whipped_cream_checkbox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:text="@string/whipped_name"
+                        android:textColor="#fff"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="104dp"
+                            android:layout_height="wrap_content"
+                            android:padding="4dp"
+                            android:text="@string/item"
+                            android:textColor="#fff" />
+
+
+                        <TextView
+                            android:layout_width="68dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="@string/price1"
+                            android:textColor="#fff" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/order1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="64dp"
+                        android:layout_margin="30dp"
+                        android:background="@drawable/rounded_button"
+                        android:text="@string/buy"
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="190dp"
+                    android:layout_height="300dp"
+                    android:background="#003459"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/choco_image_view"
+                        android:layout_width="136dp"
+                        android:layout_height="75dp"
+                        android:layout_margin="16dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/coffee_a" />
+
+                    <TextView
+                        android:id="@+id/chocolate_checkbox"
+                        android:layout_width="144dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:text="@string/chocolate_name"
+                        android:textColor="#fff"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="39dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="104dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/item"
+                            android:textColor="#fff" />
+
+
+                        <TextView
+                            android:layout_width="68dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="@string/price2"
+                            android:textColor="#fff" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/order2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="64dp"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/rounded_button"
+                        android:text="@string/buy"
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#003459"
+                android:orientation="horizontal"
+                android:padding="4dp">
+
+                <LinearLayout
+                    android:layout_width="182dp"
+                    android:layout_height="307dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/expresso_image_view"
+                        android:layout_width="125dp"
+                        android:layout_height="69dp"
+                        android:layout_margin="16dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/coffee_b" />
+
+                    <TextView
+                        android:id="@+id/expresso_checkbox"
+                        android:layout_width="95dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:text="@string/expresso_name"
+                        android:textColor="#fff"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="104dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/item"
+                            android:textColor="#fff" />
+
+
+                        <TextView
+                            android:layout_width="68dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="@string/price3"
+                            android:textColor="#fff" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/order3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="64dp"
+                        android:layout_margin="50dp"
+                        android:background="@drawable/rounded_button"
+                        android:text="@string/buy"
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="192dp"
+                    android:layout_height="298dp"
+                    android:orientation="vertical"
+                    android:textColor="#fff">
+
+                    <ImageView
+                        android:id="@+id/latte_image_view"
+                        android:layout_width="114dp"
+                        android:layout_height="65dp"
+                        android:layout_margin="24dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/choco" />
+
+                    <TextView
+                        android:id="@+id/latte_checkbox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="4dp"
+                        android:text="@string/latte_name"
+                        android:textColor="#fff"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="104dp"
+                            android:layout_height="wrap_content"
+                            android:text="@string/item"
+                            android:textColor="#fff" />
+
+
+                        <TextView
+                            android:layout_width="68dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:text="@string/price4"
+                            android:textColor="#fff" />
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/order4"
+                        android:layout_width="97dp"
+                        android:layout_height="64dp"
+                        android:layout_margin="50dp"
+                        android:background="@drawable/rounded_button"
+                        android:text="@string/buy"
+                        android:textColor="#fff" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+            </LinearLayout>
